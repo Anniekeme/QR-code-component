@@ -1,1 +1,1 @@
-https://anniekeme.github.io/Front-end-Mentor-challenge-1/
+https://anniekeme.github.io/QR-code-component/
