@@ -4,40 +4,47 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header class="srn" role="banner">
-        <h1>QR code</h1>
+    <header class="sr-only">
+        <h1>FEM QR Code Component</h1>
     </header>
-
-    <main role="main">
-        <div class="card">
-            <div class="img-container">
-                <img src="images/image-qr-code.png" alt="image-qr-code" />
+    <main>
+        <article class="card">
+            <div class="card__img">
+                <img src="./images/image-qr-code.png" alt="qr code" />
             </div>
-            <div class="card-text">
-                <h1>Improve your front-end skills by building projects</h1>
+            <div class="card__body">
+                <h2>Improve your front-end skills by building projects</h2>
                 <p>
-                    Scan the QR code to visit front-end Mentor and take your coding skills to the next level
+                    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
                 </p>
             </div>
-        </div>
+        </article>
     </main>
-
-    <footer role="contentinfo">
+    <footer class="footer">
         <div class="attribution">
             Challenge by
-            <a href="https://frontendmentor.io" target="_blank">Front-end Mentor</a> Coded by
-            <a href="">Aniekeme Moses</a>
-        </div>
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/Anniekeme"
+          >Aniekeme Moses</a
+        >.
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
